@@ -25,20 +25,6 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y megatools
 
-    - name: Download CSV Files from Mega
-      run: |
-        https://mega.nz/file/izxzVTJD#7t0DlPU_thJo3wayZog-pbhMpW5nMUCTyMVLXiwSbxg
-        # List the directory structure to verify where the files are
-        ls -R
-
-    - name: Move downloaded files to root directory
-      run: |
-        # Move files to the working directory only if they are not already there
-        for file in $(find . -name '*.csv'); do
-          if [ "$file" != "./$(basename $file)" ]; then
-            mv "$file" . || true
-          fi
-        done
 
     # Commented out the notebook execution step
     # - name: Run Jupyter Notebook
