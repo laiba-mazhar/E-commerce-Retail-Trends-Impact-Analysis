@@ -27,7 +27,7 @@ jobs:
 
     - name: Download CSV Files from Mega
       run: |
-        megadl 'https://mega.nz/folder/GRMlHbzB#RNCqR2Wn1MwV6UkK4i-8dQ'
+        https://mega.nz/file/izxzVTJD#7t0DlPU_thJo3wayZog-pbhMpW5nMUCTyMVLXiwSbxg
         # List the directory structure to verify where the files are
         ls -R
 
