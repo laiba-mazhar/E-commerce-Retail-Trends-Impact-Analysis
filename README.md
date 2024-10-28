@@ -1,4 +1,4 @@
-# E-commerce Retail Trends & Imopact Analysis
+# E-commerce Retail Trends & Impact Analysis
 
 ## Introduction
 This project analyzes global e-commerce trends and their impact on traditional retail. The analysis encompasses various datasets to understand consumer behavior, market dynamics, and the evolving landscape of e-commerce.
@@ -43,4 +43,4 @@ The project highlights the transformative effects of e-commerce on the retail la
 - Continued growth in e-commerce is expected, emphasizing the importance of innovation and flexibility in business models.
 
 ## Acknowledgments
-Thank you for reviewing this project. Any feedback or questions can be directed to [Your Email].
+Thank you for reviewing this project. Any feedback or questions can be directed to [laibamazhar.000@gmail.com].
